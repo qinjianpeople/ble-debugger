@@ -88,4 +88,36 @@
     <p>No third-party SDKs are integrated. No data is transmitted or retained.</p>
 
     <h3>4. Third-party Services</h3>
-    <p>This App may use Apple's in-app purchase services. Please refer to the <a href="https://www.apple.c
+    <p>This App may use Apple's in-app purchase services. Please refer to the <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a>.</p>
+
+    <h3>5. User Rights</h3>
+    <p>Since no data is collected, there is no need for data access or deletion requests.</p>
+
+    <h3>6. Contact</h3>
+    <p>If you have any questions, please submit an issue on our GitHub repository.</p>
+  </div>
+
+  <script>
+    function setLang(lang) {
+      document.querySelectorAll('.lang').forEach(div => div.classList.remove('visible'));
+      document.getElementById(lang).classList.add('visible');
+      localStorage.setItem('selectedLang', lang);
+    }
+
+    // 首次加载语言识别
+    (function () {
+      const savedLang = localStorage.getItem('selectedLang');
+      if (savedLang) {
+        setLang(savedLang);
+      } else {
+        const browserLang = navigator.language || navigator.userLanguage;
+        if (browserLang.startsWith('zh')) {
+          setLang('zh');
+        } else {
+          setLang('en');
+        }
+      }
+    })();
+  </script>
+</body>
+</html>
