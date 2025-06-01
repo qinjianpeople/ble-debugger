@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>隐私政策 / Privacy Policy</title>
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
       padding: 2em;
       line-height: 1.6;
@@ -16,108 +16,78 @@
     }
     h1 {
       text-align: center;
+      margin-bottom: 2rem;
     }
-    .lang-toggle {
-      text-align: center;
-      margin-bottom: 20px;
+    .section {
+      margin-bottom: 2rem;
     }
-    .lang-toggle button {
-      margin: 0 5px;
-      padding: 8px 16px;
-      font-size: 1em;
-      cursor: pointer;
+    .zh, .en {
+      margin-bottom: 1rem;
     }
-    .lang { display: none; }
-    .visible { display: block; }
+    .zh {
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
   <h1>隐私政策 / Privacy Policy</h1>
 
-  <div class="lang-toggle">
-    <button onclick="setLang('zh')">中文</button>
-    <button onclick="setLang('en')">English</button>
+  <div class="section">
+    <div class="zh">生效日期：2025年6月1日</div>
+    <div class="en"><strong>Effective Date:</strong> June 1, 2025</div>
   </div>
 
-  <!-- 中文内容 -->
-  <div id="zh" class="lang">
-    <h2>隐私政策</h2>
-    <p><strong>生效日期：</strong>2025年6月1日</p>
-    <p>感谢您使用本应用。本隐私政策用于说明我们如何收集、使用和保护您的信息。</p>
+  <div class="section">
+    <div class="zh">感谢您使用本应用。本隐私政策用于说明我们如何收集、使用和保护您的信息。</div>
+    <div class="en">Thank you for using this App. This privacy policy explains how we collect, use, and protect your information.</div>
+  </div>
 
-    <h3>1. 收集的信息</h3>
-    <p>本应用仅请求以下权限：</p>
+  <div class="section">
+    <div class="zh">1. 收集的信息</div>
+    <div class="en">1. Information Collected</div>
+    <div class="zh">本应用仅请求以下权限：</div>
+    <div class="en">The App only requests the following permissions:</div>
     <ul>
-      <li><strong>蓝牙权限：</strong>用于扫描和连接蓝牙设备，不会存储或上传任何蓝牙设备信息。</li>
-      <li><strong>联网权限：</strong>仅用于从 App Store 获取内购信息。</li>
+      <li class="zh">蓝牙权限：用于扫描和连接蓝牙设备，不会存储或上传任何蓝牙设备信息。</li>
+      <li class="en">Bluetooth Access: To scan and connect to Bluetooth devices. No device information is stored or uploaded.</li>
+      <li class="zh">联网权限：仅用于从 App Store 获取内购信息。</li>
+      <li class="en">Internet Access: To retrieve in-app purchase information from the App Store.</li>
     </ul>
-
-    <h3>2. 使用信息</h3>
-    <p>我们不会收集、存储或上传任何用户数据，所有操作均在设备本地完成。</p>
-
-    <h3>3. 数据安全</h3>
-    <p>应用未集成第三方 SDK，不传输用户数据，不保存任何用户信息。</p>
-
-    <h3>4. 第三方服务</h3>
-    <p>本应用可能使用 Apple 内购服务，详情请参阅 <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple 隐私政策</a>。</p>
-
-    <h3>5. 用户权利</h3>
-    <p>由于我们不收集任何信息，您无需担心数据访问或删除问题。</p>
-
-    <h3>6. 联系方式</h3>
-    <p>如有任何问题，请通过 GitHub 提交 Issue 与我们联系。</p>
   </div>
 
-  <!-- English Content -->
-  <div id="en" class="lang">
-    <h2>Privacy Policy</h2>
-    <p><strong>Effective Date:</strong> June 1, 2025</p>
-    <p>Thank you for using this App. This privacy policy explains how we collect, use, and protect your information.</p>
-
-    <h3>1. Information Collected</h3>
-    <p>The App only requests the following permissions:</p>
-    <ul>
-      <li><strong>Bluetooth Access:</strong> To scan and connect to Bluetooth devices. No device information is stored or uploaded.</li>
-      <li><strong>Internet Access:</strong> To retrieve in-app purchase information from the App Store.</li>
-    </ul>
-
-    <h3>2. Use of Information</h3>
-    <p>We do not collect, store, or transmit any user data. All processing happens locally on your device.</p>
-
-    <h3>3. Data Security</h3>
-    <p>No third-party SDKs are integrated. No data is transmitted or retained.</p>
-
-    <h3>4. Third-party Services</h3>
-    <p>This App may use Apple's in-app purchase services. Please refer to the <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a>.</p>
-
-    <h3>5. User Rights</h3>
-    <p>Since no data is collected, there is no need for data access or deletion requests.</p>
-
-    <h3>6. Contact</h3>
-    <p>If you have any questions, please submit an issue on our GitHub repository.</p>
+  <div class="section">
+    <div class="zh">2. 使用信息</div>
+    <div class="en">2. Use of Information</div>
+    <div class="zh">我们不会收集、存储或上传任何用户数据，所有操作均在设备本地完成。</div>
+    <div class="en">We do not collect, store, or transmit any user data. All processing happens locally on your device.</div>
   </div>
 
-  <script>
-    function setLang(lang) {
-      document.querySelectorAll('.lang').forEach(div => div.classList.remove('visible'));
-      document.getElementById(lang).classList.add('visible');
-      localStorage.setItem('selectedLang', lang);
-    }
+  <div class="section">
+    <div class="zh">3. 数据安全</div>
+    <div class="en">3. Data Security</div>
+    <div class="zh">应用未集成第三方 SDK，不传输用户数据，不保存任何用户信息。</div>
+    <div class="en">No third-party SDKs are integrated. No data is transmitted or retained.</div>
+  </div>
 
-    // 首次加载语言识别
-    (function () {
-      const savedLang = localStorage.getItem('selectedLang');
-      if (savedLang) {
-        setLang(savedLang);
-      } else {
-        const browserLang = navigator.language || navigator.userLanguage;
-        if (browserLang.startsWith('zh')) {
-          setLang('zh');
-        } else {
-          setLang('en');
-        }
-      }
-    })();
-  </script>
+  <div class="section">
+    <div class="zh">4. 第三方服务</div>
+    <div class="en">4. Third-party Services</div>
+    <div class="zh">本应用可能使用 Apple 内购服务，详情请参阅 <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple 隐私政策</a>。</div>
+    <div class="en">This App may use Apple's in-app purchase services. Please refer to the <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a>.</div>
+  </div>
+
+  <div class="section">
+    <div class="zh">5. 用户权利</div>
+    <div class="en">5. User Rights</div>
+    <div class="zh">由于我们不收集任何信息，您无需担心数据访问或删除问题。</div>
+    <div class="en">Since no data is collected, there is no need for data access or deletion requests.</div>
+  </div>
+
+  <div class="section">
+    <div class="zh">6. 联系方式</div>
+    <div class="en">6. Contact</div>
+    <div class="zh">如有任何问题，请通过 GitHub 提交 Issue 与我们联系。</div>
+    <div class="en">If you have any questions, please submit an issue on our GitHub repository.</div>
+  </div>
 </body>
 </html>
