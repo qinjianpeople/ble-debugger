@@ -7,87 +7,118 @@
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      max-width: 900px;
-      margin: auto;
-      padding: 2em;
-      line-height: 1.6;
-      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f4f8;
       color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+      background-color: #ffffff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     }
     h1 {
       text-align: center;
       margin-bottom: 2rem;
+      font-size: 1.8rem;
     }
     .section {
       margin-bottom: 2rem;
     }
     .zh, .en {
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
+      line-height: 1.6;
     }
     .zh {
       font-weight: bold;
     }
+    ul {
+      padding-left: 1.2rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    a {
+      color: #007aff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+      .container {
+        padding: 1.5rem 1rem;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>隐私政策 / Privacy Policy</h1>
+  <div class="container">
+    <h1>隐私政策 / Privacy Policy</h1>
 
-  <div class="section">
-    <div class="zh">生效日期：2025年6月1日</div>
-    <div class="en"><strong>Effective Date:</strong> June 1, 2025</div>
-  </div>
+    <div class="section">
+      <div class="zh">生效日期：2025年6月1日</div>
+      <div class="en"><strong>Effective Date:</strong> June 1, 2025</div>
+    </div>
 
-  <div class="section">
-    <div class="zh">感谢您使用本应用。本隐私政策用于说明我们如何收集、使用和保护您的信息。</div>
-    <div class="en">Thank you for using this App. This privacy policy explains how we collect, use, and protect your information.</div>
-  </div>
+    <div class="section">
+      <div class="zh">感谢您使用本应用。本隐私政策用于说明我们如何收集、使用和保护您的信息。</div>
+      <div class="en">Thank you for using this App. This privacy policy explains how we collect, use, and protect your information.</div>
+    </div>
 
-  <div class="section">
-    <div class="zh">1. 收集的信息</div>
-    <div class="en">1. Information Collected</div>
-    <div class="zh">本应用仅请求以下权限：</div>
-    <div class="en">The App only requests the following permissions:</div>
-    <ul>
-      <li class="zh">蓝牙权限：用于扫描和连接蓝牙设备，不会存储或上传任何蓝牙设备信息。</li>
-      <li class="en">Bluetooth Access: To scan and connect to Bluetooth devices. No device information is stored or uploaded.</li>
-      <li class="zh">联网权限：仅用于从 App Store 获取内购信息。</li>
-      <li class="en">Internet Access: To retrieve in-app purchase information from the App Store.</li>
-    </ul>
-  </div>
+    <div class="section">
+      <div class="zh">1. 收集的信息</div>
+      <div class="en">1. Information Collected</div>
+      <div class="zh">本应用仅请求以下权限：</div>
+      <div class="en">The App only requests the following permissions:</div>
+      <ul>
+        <li class="zh">蓝牙权限：用于扫描和连接蓝牙设备，不会存储或上传任何蓝牙设备信息。</li>
+        <li class="en">Bluetooth Access: To scan and connect to Bluetooth devices. No device information is stored or uploaded.</li>
+        <li class="zh">联网权限：仅用于从 App Store 获取内购信息。</li>
+        <li class="en">Internet Access: To retrieve in-app purchase information from the App Store.</li>
+      </ul>
+    </div>
 
-  <div class="section">
-    <div class="zh">2. 使用信息</div>
-    <div class="en">2. Use of Information</div>
-    <div class="zh">我们不会收集、存储或上传任何用户数据，所有操作均在设备本地完成。</div>
-    <div class="en">We do not collect, store, or transmit any user data. All processing happens locally on your device.</div>
-  </div>
+    <div class="section">
+      <div class="zh">2. 使用信息</div>
+      <div class="en">2. Use of Information</div>
+      <div class="zh">我们不会收集、存储或上传任何用户数据，所有操作均在设备本地完成。</div>
+      <div class="en">We do not collect, store, or transmit any user data. All processing happens locally on your device.</div>
+    </div>
 
-  <div class="section">
-    <div class="zh">3. 数据安全</div>
-    <div class="en">3. Data Security</div>
-    <div class="zh">应用未集成第三方 SDK，不传输用户数据，不保存任何用户信息。</div>
-    <div class="en">No third-party SDKs are integrated. No data is transmitted or retained.</div>
-  </div>
+    <div class="section">
+      <div class="zh">3. 数据安全</div>
+      <div class="en">3. Data Security</div>
+      <div class="zh">应用未集成第三方 SDK，不传输用户数据，不保存任何用户信息。</div>
+      <div class="en">No third-party SDKs are integrated. No data is transmitted or retained.</div>
+    </div>
 
-  <div class="section">
-    <div class="zh">4. 第三方服务</div>
-    <div class="en">4. Third-party Services</div>
-    <div class="zh">本应用可能使用 Apple 内购服务，详情请参阅 <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple 隐私政策</a>。</div>
-    <div class="en">This App may use Apple's in-app purchase services. Please refer to the <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a>.</div>
-  </div>
+    <div class="section">
+      <div class="zh">4. 第三方服务</div>
+      <div class="en">4. Third-party Services</div>
+      <div class="zh">本应用可能使用 Apple 内购服务，详情请参阅 <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple 隐私政策</a>。</div>
+      <div class="en">This App may use Apple's in-app purchase services. Please refer to the <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a>.</div>
+    </div>
 
-  <div class="section">
-    <div class="zh">5. 用户权利</div>
-    <div class="en">5. User Rights</div>
-    <div class="zh">由于我们不收集任何信息，您无需担心数据访问或删除问题。</div>
-    <div class="en">Since no data is collected, there is no need for data access or deletion requests.</div>
-  </div>
+    <div class="section">
+      <div class="zh">5. 用户权利</div>
+      <div class="en">5. User Rights</div>
+      <div class="zh">由于我们不收集任何信息，您无需担心数据访问或删除问题。</div>
+      <div class="en">Since no data is collected, there is no need for data access or deletion requests.</div>
+    </div>
 
-  <div class="section">
-    <div class="zh">6. 联系方式</div>
-    <div class="en">6. Contact</div>
-    <div class="zh">如有任何问题，请通过 GitHub 提交 Issue 与我们联系。</div>
-    <div class="en">If you have any questions, please submit an issue on our GitHub repository.</div>
+    <div class="section">
+      <div class="zh">6. 联系方式</div>
+      <div class="en">6. Contact</div>
+      <div class="zh">如有任何问题，请通过 GitHub 提交 Issue 与我们联系。</div>
+      <div class="en">If you have any questions, please submit an issue on our GitHub repository.</div>
+    </div>
   </div>
 </body>
 </html>
